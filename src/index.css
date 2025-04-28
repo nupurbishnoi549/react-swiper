@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../public/assets/font/Helvetica.ttf') format('truetype');
+}
+
+body {
+    font-family: 'helvetica', sans-serif;
+}
+
+@media (max-width:770px) {
+    .slick-list .slick-track {
+        display: flex;
+        gap: 6px;
+    }
+}
