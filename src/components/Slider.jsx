@@ -22,10 +22,12 @@ const SimpleSteps = () => {
                         disableOnInteraction: false,
                     }}
                     className="mySwiper"
+                    spaceBetween={30}
                     breakpoints={{
                         320: { slidesPerView: 1 },
                         640: { slidesPerView: 2 },
                         992: { slidesPerView: 3 },
+                        1024: { slidesPerView: 3, spaceBetween: 10 },
                         1200: { slidesPerView: 4 },
                     }}
                 >
