@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 const SimpleSteps = () => {
     return (
         <div className='max-lg:pb-[44px] py-11'>
-            <div className="2xl:container">
+            <div className="2xl:container max-sm:px-3">
                 <h2 className='text-[#00171F] font-normal text-5xl max-md:text-3xl pb-4 text-center'>
                     Simple Steps to <span className='font-bold'>Switch</span>
                 </h2>
@@ -37,10 +37,10 @@ const SimpleSteps = () => {
                                 <img className='max-w-[360px] w-full' src={obj.stepImg} alt={obj.alt} />
                                 <div className='absolute group-hover:h-0 group-hover:w-0 group-hover:top-1/2 group-hover:left-full group-hover:translate-y-[70%] group-hover:translate-x-[-50%] group-hover:opacity-80 group-hover:z-10 duration-700 ease-in-out bg-[#EAF9FFF0] opacity-94 top-0 left-0 w-full h-full'>
                                     <div className='relative w-full h-full'>
-                                        <p className={`absolute translate-x-[-50%] md:text-[32px] text-[22px] font-normal text-center text-[#00171F] -rotate-90 min-w-[574px] group-hover:hidden ${i === 0 ? "top-1/2 left-1/2" : i === 1 ? "top-[68%] left-1/2" : i === 2 ? "top-[74%] left-1/2" : i === 3 ? "top-[65.5%] left-1/2" : ""}`}>{obj.imgContent}</p>
+                                        <p className={`absolute translate-x-[-50%] md:text-[32px] text-[22px] font-normal text-center text-[#00171F] -rotate-90 min-w-[574px] group-hover:hidden ${i === 0 ? "top-[47%] left-1/2" : i === 1 ? "top-[65%] left-1/2" : i === 2 ? "top-[71.5%] left-1/2" : i === 3 ? "top-[62.5%] left-1/2" : ""}`}>{obj.imgContent}</p>
                                     </div>
                                 </div>
-                                <div className='bg-[#003459] absolute top-[-50%] group-hover:top-[73%] group-hover:bottom-0 duration-700 ease-in-out w-full p-8'>
+                                <div className='bg-[#003459] absolute top-[-50%] group-hover:top-[73%] group-hover:bottom-0 duration-700 ease-in-out w-full p-5'>
                                     <h4 className='text-[32px] font-normal pb-3 text-white'>{obj.heading}</h4>
                                     <p className='text-white text-base'>{obj.description}</p>
                                 </div>
