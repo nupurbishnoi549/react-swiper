@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 
 const SimpleSteps = () => {
     return (
-        <div className='max-lg:pb-[44px]'>
+        <div className='max-lg:pb-[44px] py-11'>
             <div className="2xl:container">
                 <h2 className='text-[#00171F] font-normal text-5xl max-md:text-3xl pb-4 text-center'>
                     Simple Steps to <span className='font-bold'>Switch</span>
