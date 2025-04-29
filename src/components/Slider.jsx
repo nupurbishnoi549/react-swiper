@@ -22,19 +22,18 @@ const SimpleSteps = () => {
                         disableOnInteraction: false,
                     }}
                     className="mySwiper"
-                    spaceBetween={30}
                     breakpoints={{
                         320: { slidesPerView: 1 },
                         640: { slidesPerView: 2 },
                         992: { slidesPerView: 3 },
-                        1024: { slidesPerView: 3, spaceBetween: 10 },
+                        1024: { slidesPerView: 3,},
                         1200: { slidesPerView: 4 },
                     }}
                 >
                     {SIMPLE_STEPS_LIST.map((obj, i) => (
                         <SwiperSlide key={i}>
-                            <div className='relative group overflow-hidden max-md:max-h-[450px] max-w-[360px] w-full mx-auto'>
-                                <img className='max-w-[360px] w-full' src={obj.stepImg} alt={obj.alt} />
+                            <div className='relative group overflow-hidden w-full mx-auto'>
+                                <img className='w-full' src={obj.stepImg} alt={obj.alt} />
                                 <div className='absolute group-hover:h-0 group-hover:w-0 group-hover:top-1/2 group-hover:left-full group-hover:translate-y-[70%] group-hover:translate-x-[-50%] group-hover:opacity-80 group-hover:z-10 duration-700 ease-in-out bg-[#EAF9FFF0] opacity-94 top-0 left-0 w-full h-full'>
                                     <div className='relative w-full h-full'>
                                         <p className={`absolute translate-x-[-50%] md:text-[32px] text-[22px] font-normal text-center text-[#00171F] -rotate-90 min-w-[574px] group-hover:hidden ${i === 0 ? "top-[47%] left-1/2" : i === 1 ? "top-[65%] left-1/2" : i === 2 ? "top-[71.5%] left-1/2" : i === 3 ? "top-[62.5%] left-1/2" : ""}`}>{obj.imgContent}</p>
