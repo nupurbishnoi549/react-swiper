@@ -37,7 +37,7 @@ const SimpleSteps = () => {
                                 <img className='max-w-[360px] w-full' src={obj.stepImg} alt={obj.alt} />
                                 <div className='absolute group-hover:h-0 group-hover:w-0 group-hover:top-1/2 group-hover:left-full group-hover:translate-y-[70%] group-hover:translate-x-[-50%] group-hover:opacity-80 group-hover:z-10 duration-700 ease-in-out bg-[#EAF9FFF0] opacity-94 top-0 left-0 w-full h-full'>
                                     <div className='relative w-full h-full'>
-                                        <p className={`absolute translate-x-[-50%] text-center text-[#00171F] -rotate-90 min-w-[574px] group-hover:hidden ${i === 0 ? "top-1/2 left-1/2" : i === 1 ? "top-[68%] left-1/2" : i === 2 ? "top-[74%] left-1/2" : i === 3 ? "top-[65.5%] left-1/2" : ""}`}>{obj.imgContent}</p>
+                                        <p className={`absolute translate-x-[-50%] md:text-[32px] text-2xl font-normal text-center text-[#00171F] -rotate-90 min-w-[574px] group-hover:hidden ${i === 0 ? "top-1/2 left-1/2" : i === 1 ? "top-[68%] left-1/2" : i === 2 ? "top-[74%] left-1/2" : i === 3 ? "top-[65.5%] left-1/2" : ""}`}>{obj.imgContent}</p>
                                     </div>
                                 </div>
                                 <div className='bg-[#003459] absolute top-[-50%] group-hover:top-[73%] group-hover:bottom-0 duration-700 ease-in-out w-full p-8'>
